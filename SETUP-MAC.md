@@ -8,12 +8,32 @@ Install brew...
 
 Install apps via brew...
 ```bash
-brew install wget htop nmap watch android-platform-tools spotify vlc rectangle iterm2 zed obsidian uv stats zoom chatgpt bitwarden cyberduck  zoom balenaetcher 
+brew install wget htop nmap watch android-platform-tools
+brew install iterm2 zed devtoys cyberduck
+brew install uv
+brew install obsidian nextcloud
+brew install spotify vlc chatgpt
+brew install stats rectangle
 ```
 
-Install remaining apps...
+Install remaining apps manually...
 - Tailscale https://tailscale.com/download
   - not using brew b/c brew version is without gui
 - Bitwarden https://bitwarden.com/download/
-  - Use Mac App Store for Safari extension
+  - use Mac App Store for Safari extension
 - Flux https://justgetflux.com
+  - not available on brew
+ 
+Just in case...
+```bash
+brew install balenaetcher
+brew install vscodium
+brew install golang
+brew install rustup
+brew install cmake
+brew install flutter
+brew install android-studio
+brew install slack
+brew install discord
+brew install zoom
+```
