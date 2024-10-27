@@ -6,7 +6,7 @@ set number              " line numbers
 set showmatch           " show matching brackets
 set hlsearch            " highlight search results
 set ignorecase          " ignore case when searching
-colorscheme desert      " colorscheme desert
+colorscheme slate       " use colorscheme
 set nobackup            " no backup files (e.g. ~file)
 set nowb                " no write backup files
 set noswapfile          " no swap files
