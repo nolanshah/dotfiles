@@ -3,7 +3,7 @@
     name = Nolan Shah
     email = nolan@0x9b.com
 [alias]
-    # dag = log --decorate --oneline --graph --date=relative --date-order
+    # (simple but unused dag) >> dag = log --decorate --oneline --graph --date=relative --date-order
     dag = log --pretty='%C(yellow)%h %C(cyan)%cd %Cblue%aN%C(auto)%d %Creset%s' --graph --date=relative --date-order
     dag-all = dag --all
     dag-stat = dag --numstat
@@ -12,3 +12,14 @@
     amend = commit --amend
     co = checkout
     cob = checkout -b
+    # `git log` with patches shown with difftastic.
+    dl = -c diff.external=difft log -p --ext-diff
+    dlog = -c diff.external=difft log --ext-diff
+    # Show the most recent commit with difftastic.
+    ds = -c diff.external=difft show --ext-diff
+    dshow = -c diff.external=difft show --ext-diff
+    # `git diff` with difftastic.
+    ddiff = -c diff.external=difft diff
+    dft = -c diff.external=difft diff
+[diff]
+    external = difft
