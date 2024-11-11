@@ -14,6 +14,8 @@ brew install uv
 brew install obsidian nextcloud
 brew install spotify vlc chatgpt
 brew install stats rectangle
+brew install difftastic
+# TODO: https://codeberg.org/mergiraf/mergiraf
 ```
 
 Install remaining apps manually...
